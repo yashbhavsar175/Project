@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    padding-top: .2cm;
+    padding-bottom: .2cm;
+}
+section
+{   
+    text-align: center;
+    margin: .5cm;
+    background-color: rgb(241, 241, 241);
+    padding: .5cm;
+}
+div{
+    border: solid black;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px; 
+}
+
+footer{
+    text-align: center;
+    margin: .5cm;
+    background-color: rgb(241, 241, 241);
+    padding: .5cm;
+}

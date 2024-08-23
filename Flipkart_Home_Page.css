@@ -1,0 +1,406 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: #f1f2f4;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.header{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.header>img{
+    width: 130px;
+    cursor: pointer;
+}
+
+.header>img:hover{
+    cursor: pointer;
+}
+.header>.Searchbar{
+    width: 600px;
+    background-color: #f0f5ff;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 90%;
+    font-weight: lighter;
+    color: gray;
+    border-radius: 10px;
+    cursor:text;
+}
+
+.Searchbar>svg{
+    margin-left: 20px;
+}
+.Searchbar>p{
+    margin-left: 20px;
+}
+
+.Login>img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.Login{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Cart>img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.Cart{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.Become_Seller{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.Become_Seller>img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.Categories{
+    background-color: white;
+    margin: 75px 20px 20px 20px;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.Categories>div{
+    width: 150px; 
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Categories>div>img{
+    width: 60px;
+    height: 60px;
+    transition: .3s;
+}
+
+.Categories>div>img:hover{
+    transform: scale(1.02);
+}
+
+.Categories>div>p{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sale_Banner{
+    height: 170px;
+    width: 100%;
+    display: flex;
+}
+
+.Sale_Banner>img{
+    width: 100%;
+    padding: 0 20px 0 20px;
+}
+
+.Deals_Phone{
+    background-color: white;
+    margin: 20px;
+}
+.Phones_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Phones_Container>.phone>img{
+    width: 100%;
+    transition: .3s;
+    height: 100%;
+}
+
+.Phones_Container>.phone>img:hover{
+    transform: scale(1.03);
+}
+.Phones_Container>.phone>img:hover .header{
+    display: block;
+}
+.Deals_Phone>h2{
+    padding: 20px 0px 0px 20px;
+}
+.Phone{
+    width: 350px;
+    height: 250px;
+    border: 1px solid lightgrey;
+    padding: 5px 25px 0 25px;
+    margin: 30px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Phone>p{
+    margin: 20px 0 5px 0;
+    width: max-content;
+    text-align: center;
+}
+
+.Deals2{
+    margin: 0 20px 0 20px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.Deals2>.Deals>img:hover,.Deals2>.Deals>img:active{
+    cursor: pointer;
+}
+
+.Deals_Fashion{
+    background-color: white;
+    margin: 20px;
+}
+.Fashion_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Fashion_Container>.Fashions>img{
+    width: 100%;
+    height: 150px;
+    transition: .3s;
+}
+
+.Fashion_Container>.Fashions>img:hover{
+    transform: scale(1.03);
+}
+.Deals_Fashion>h2{
+    padding: 20px 0px 0px 20px;
+}
+.Fashions{
+    width: 300px;
+    height: 215px;
+    border: 1px solid lightgrey;
+    padding: 5px 15px 0 15px;
+    margin: 10;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fashions>p{
+    margin: 20px 0 5px 0;
+    width: max-content;
+    text-align: center;
+}
+
+.Featured_Brands{
+    width: 100%;
+    background-color: white;
+    margin: 0px 20px 0px 20px;
+    padding: 0 0 20px 0;
+}
+.Featured_Brands>h2{
+    margin: 0px 0px 10px 20px ;
+    padding: 20px 0 10px 0
+    ;
+
+}
+.Featured_Brands>.Brands{
+    margin: 0 20px 0 20px;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.Featured_Brands>.Brands>.Deals>img{
+    width: 350px;
+    height: 230px;
+}
+
+.Main_Link>.All_link{   
+     color: #666;
+    background-color: #f5f5f5;
+    margin: 10px 0 0 0 auto;
+    font-size: x-large;
+    text-align: left;
+    padding: 30px 25px 25px 25px;
+    width: 100%;
+    line-height: 1.5;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.Directory{
+    color: grey;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.Domain_link{
+    padding: 10px 20px 0 20px;
+    line-height: 1.5;
+    text-align: left;
+}
+.Domain_link>.Heading{
+    color: grey;
+    text-decoration: none;
+    font-size: larger;
+    text-align: left;
+}
+
+.Links{
+    color: gray;
+    text-decoration: none;
+}
+.Main_Link{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: smaller;
+}
+.Main_Link>.Domain_link>a{
+    padding:0 5px 0 5px;
+}
+
+footer{
+    background-color: #212121;
+    display: flex;
+    color: white;
+    padding: 40px 40 50px 40;
+    font-family: Roboto, Arial, sans-serif;
+    cursor: default;
+    margin: 30px 0 0 0;
+}
+
+footer>.All_link{
+    flex: 1;
+    display: flex;
+}
+
+footer>.All_link>.link{
+    flex: 1;
+    padding: 0 5PX 0 5PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    top: 0;
+    font-size: smaller;
+}
+
+footer>.All_link>.link>.Head{
+    height: 40px;
+    align-items: end;
+    color: #666;
+}
+footer>.All_link>.link>a{
+    color: white;
+    text-decoration: none;
+}
+
+footer>.All_link>.link>a:hover{
+    text-decoration: underline;
+}
+
+footer>.All_link>.link>.Head:hover{
+    text-decoration: none;
+    cursor: default;
+}
+
+footer>.All_link>.Address1{
+    font-size: smaller;
+    padding: 0 0 0 40px;
+}
+
+footer>.All_link>.Address1>.address1{
+    padding: 0 30px 30px 0;
+    line-height: 1.6;
+}
+
+footer>.All_link>.Address1>.Head,footer>.All_link>.Address2>.Head{
+    padding: 0px 0 20px 0;
+    font-size: medium;
+    color: #666;
+}
+
+footer>.All_link>.Address1>.Social_link{
+    display: flex;
+}
+
+footer>.All_link>.Address1>.Social_link>.link{
+    padding: 0 20px 0 0 ;
+}
+
+footer>.All_link>.Address2{
+    font-size: smaller;
+}
+footer>.All_link>.Address2>.address2{
+     line-height: 1.6;
+}
+
+.footer2{
+    
+    background-color: #212121;
+    display: flex;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    cursor: default;
+    justify-content: space-around;
+    font-size: smaller;
+    padding: 20px 0 20px 0;
+    border-top: #666 solid 1px;;
+}
+.footer2>.end_footer{
+    display: flex;
+}
+
+.footer2>.end_footer>.link{
+    padding: 0 10px 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.footer2>.end_footer>.link>img{
+    padding: 0 10px 0 0 ;
+}
+
+.footer2>.end_footer>.link>a{
+    color: white;
+    text-decoration: none;
+}
